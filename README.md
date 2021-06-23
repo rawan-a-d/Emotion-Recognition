@@ -2,14 +2,21 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0.
 
+
 # Used resources
 
 https://www.youtube.com/watch?v=CVClHLwv-4I
+
 https://justadudewhohacks.github.io/face-api.js/docs/index.html
+
 https://www.truecodex.com/course/angular-6/how-to-use-external-js-files-and-javascript-code-in-angular
+
 https://therichpost.com/how-to-access-webcam-in-angular-10-application/
+
 http://jsfiddle.net/ismyrnow/Q38v4/
+
 https://github.com/WebDevSimplified/Face-Detection-JavaScript
+
 
 ## Development server
 
