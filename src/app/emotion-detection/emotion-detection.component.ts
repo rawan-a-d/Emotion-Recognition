@@ -14,9 +14,7 @@ export class EmotionDetectionComponent implements OnInit, AfterViewInit {
 	) { }
 
 	ngAfterViewInit(): void {
-		console.log("NO After IT")
-
-		//Add script tags
+		// Add script tags
 		var s = this._renderer2.createElement('script');
 		s.type = 'text/javascript';
 		s.src = '../assets/face-api.min.js';
@@ -26,30 +24,5 @@ export class EmotionDetectionComponent implements OnInit, AfterViewInit {
 
 
 	public ngOnInit() {
-		// //Add script tags
-		// var s = this._renderer2.createElement('script');
-		// s.type = 'text/javascript';
-		// s.src = '../assets/face-api.min.js';
-		// s.text = ``;
-		// this._renderer2.appendChild(this._document.body, s);
-
-		// s = this._renderer2.createElement('script');
-		// s.type = 'text/javascript';
-		// s.src = '../assets/script.js';
-		// s.text = ``;
-		// this._renderer2.appendChild(this._document.body, s);
-		console.log("NO IN IT")
-
 	}
-
-
-	// reloadComponent() {
-	//   let currentUrl = this.router.url;
-	//       this.router.routeReuseStrategy.shouldReuseRoute = () => false;
-	//       this.router.onSameUrlNavigation = 'reload';
-	//       this.router.navigate([currentUrl]);
-	//   }
-	// }
-
-
 }

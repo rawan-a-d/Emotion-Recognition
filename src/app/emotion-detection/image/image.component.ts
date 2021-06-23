@@ -13,8 +13,8 @@ export class ImageComponent implements OnInit {
 	// select image
 	selectedImage: String = '';
 
-	//url; //Angular 8
-	url: any; //Angular 11, for stricter type
+	//url
+	url: any;
 	msg = "";
 
 	constructor(
@@ -56,20 +56,4 @@ export class ImageComponent implements OnInit {
 		// Process Image
 		setUp()
 	}
-
-
-	// When an image is selected
-	// onFileSelect(event: any) {
-	// 	const file = event.target['files'][0]
-
-	// 	if (event.target.files.length > 0 && /\.(jpe?g|png|gif|bmp)$/i.test(file.name) ) {
-	// 		const file = event.target.files[0];
-
-	// 		this.selectedImage = 'assets/' + file.name;
-
-	// Process Image
-	// 		setUp()
-	// 	}
-	// }
-
 }

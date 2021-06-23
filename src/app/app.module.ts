@@ -10,6 +10,7 @@ import { ImageComponent } from './emotion-detection/image/image.component';
 import {MatTabsModule} from '@angular/material/tabs';
 import { VideoComponent } from './emotion-detection/video/video.component';
 import { AppRoutingModule } from './app-routing.module';
+import { CameraComponent } from './emotion-detection/camera/camera.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { AppRoutingModule } from './app-routing.module';
     AppComponent,
     VideoComponent,
     EmotionDetectionComponent,
-    ImageComponent
+    ImageComponent,
+    CameraComponent
   ],
   imports: [
     BrowserModule,
