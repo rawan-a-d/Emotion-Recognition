@@ -1,0 +1,52 @@
+
+/* FOR CANVAS, put detection directly on face */
+/* #container {
+	display: flex;
+} */
+
+#emotions {
+	display: block;
+}
+
+
+
+
+/* FOR SELECT IMAGES */
+#container {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image-preview { 
+	display: block;
+	cursor: pointer;
+	width: 70%;
+	margin: 2% 15%;
+}
+
+input { 
+	display: none; 
+}
+
+#selected-image {
+	width: 50%;
+	height: 40%;
+}
+
+#emotions {
+	margin: 2% auto;
+}
+
+.emotion {
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
